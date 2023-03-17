@@ -1,0 +1,164 @@
+.init1{
+    background-color: #F6E1C3;
+    text-align: center;
+    height: 675px;
+}
+h1{
+    
+    /* margin-bottom: 27px; */
+    font-size: 5rem;
+    color: #A84448;
+    margin-top: 0px;
+    font-family: cursive;
+    position: absolute;
+    
+    top: 300px;
+    right: 350px;
+}
+h2{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    margin: 0;
+}
+.robot{
+    width: 420px;
+    margin-top: 200px;
+    position: absolute;
+    left: 0;
+    transform: rotate(45deg);
+    
+}
+.robothand{
+    width: 200px;
+    position: absolute;
+    left: 10px;
+}
+.innovation{
+    transform: rotate(180deg);
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.cable{
+    transform: rotate(-90deg);
+    width: 250px;
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+.web{
+    width: 250px;
+}
+.skill1{
+    text-align: center;
+}
+.html{
+    margin-right: 40px;
+
+    
+}
+.css{
+    margin-right: 40px;
+}
+.js{
+    margin-right: 50px;
+}
+.nj{
+    margin-right: 40px;
+}
+.rj{
+    margin-right: 70px;
+}
+/* .ani {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #F6E1C3;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {
+      top: 0;
+      right: 200px;
+      background-color: #A84448;
+      
+    }
+  
+    75% {
+      top: 350px;
+      right: 200px;
+      background-color: black;
+    }
+    to{
+        background-color:#F6E1C3 ;
+        visibility: hidden;
+    }
+  } */
+  .ani {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:#A84448; left:700px; top:250px;}
+    25%  {background-color:#F6E1C3; left:1000px; top:250px;}
+    50%  {background-color:#A84448; left:1000px; top:400px;}
+    75%  {background-color:#F6E1C3; left:700px; top:400px;}
+    100% {background-color:#A84448; left:700px; top:250px;}
+  }
+  .py{
+    width: 250px;
+    margin-right: 20px;
+
+    /* position: absolute; */
+  }
+  .sk{
+    width: 250px;
+    /* position: ; */
+  }
+  .skill2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  hr{
+    border: dotted;
+    border-bottom: 0;
+    width: 20%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: grey;
+  }
+  .home{
+    width: 70px;
+    position: absolute;
+    left: 45px;
+    top: 10px;
+  }
+  .homediv{
+    height: 100px;
+    width: 12%;
+  }
+  .home:hover{
+    color: #A84448;
+    width: 55px;
+    box-shadow: #A84448;
+    transition: 200ms;
+  }
+  
